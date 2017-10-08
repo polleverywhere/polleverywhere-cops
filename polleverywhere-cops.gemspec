@@ -7,7 +7,7 @@ Gem::Specification.new do |gem|
   gem.license          = "MIT"
   gem.authors          = ["Poll Everywhere"]
   gem.email            = ["geeks@polleverywhere.com"]
-  gem.homepage         = "https://www.polleverywhere.com"
+  gem.homepage         = "https://github.com/polleverywhere/polleverywhere-cops"
   gem.summary          = "Custom RuboCop cops for Poll Everywhere"
   gem.description      = "Custom RuboCop cops for Poll Everywhere"
   gem.files            = `git ls-files`.split("\n")
