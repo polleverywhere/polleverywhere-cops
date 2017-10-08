@@ -32,7 +32,7 @@ module RuboCop
         end
 
         def nullable?(node)
-          node.source !~ /(null: false)|(:null => false)|(NOT NULL)/i
+          node.source !~ /(null:\s*false)|(:null\s*=>\s*false)|(NOT\s+NULL)/i
         end
       end
     end
