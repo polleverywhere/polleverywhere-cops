@@ -4,7 +4,7 @@ module RuboCop
   module Cop
     module PollEverywhere
       class NullableBoolean < Cop
-        MSG = "Boolean columns cannot be nullable. (https://playbook.polleverywhere.com/conventions/ruby/#migrations)".freeze
+        MSG = "Boolean database columns cannot be nullable. (https://playbook.polleverywhere.com/conventions/ruby/#migrations)".freeze
 
         def on_send(node)
           if adding_boolean?(node) && nullable?(node)
