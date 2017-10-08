@@ -20,3 +20,9 @@ Add to `.rubocop.yml`:
 require:
 - polleverywhere-cops
 ```
+
+## Publishing to RubyGems
+
+- Bump `lib/rubocop/polleverywhere/version.rb`
+- `gem build polleverywhere-cops.gemspec`
+- `gem push polleverywhere-cops-x.x.x.gem`
