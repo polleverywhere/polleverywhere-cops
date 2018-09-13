@@ -8,7 +8,7 @@ module RuboCop
 
         def on_send(node)
           if adding_boolean?(node) && nullable?(node)
-            add_offense(node, :expression, MSG)
+            add_offense(node, location: :expression, message: MSG)
           end
         end
 

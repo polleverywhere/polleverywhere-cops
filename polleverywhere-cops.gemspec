@@ -15,5 +15,5 @@ Gem::Specification.new do |gem|
   gem.extra_rdoc_files = ["README.md"]
   gem.rdoc_options     = ["--main", "README.md"]
 
-  gem.add_runtime_dependency "rubocop", ">= 0.48.1"
+  gem.add_runtime_dependency "rubocop", ">= 0.51.0"
 end
