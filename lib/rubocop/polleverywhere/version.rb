@@ -3,7 +3,7 @@
 module RuboCop
   module PollEverywhere
     module Version
-      STRING = "1.0.2".freeze
+      STRING = "1.1.0".freeze
     end
   end
 end

@@ -5,6 +5,7 @@ Custom RuboCop cops for Poll Everywhere
 ## Cops
 
 - *NullableBoolean*: Boolean database columns cannot be nullable.
+- _Constantize_: Don't call String#constantize.
 
 ## Instructions
 
