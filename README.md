@@ -4,8 +4,9 @@ Custom RuboCop cops for Poll Everywhere
 
 ## Cops
 
-- *NullableBoolean*: Boolean database columns cannot be nullable.
+- _NullableBoolean_: Boolean database columns cannot be nullable.
 - _Constantize_: Don't call String#constantize.
+- _RenderViews_: Don't call `render_views` in controller specs.
 
 ## Instructions
 
